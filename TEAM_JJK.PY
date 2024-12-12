@@ -1335,7 +1335,7 @@ With Your ☛ Other Friends.**"""
             [
                 InlineKeyboardButton(
                     text="🌺 Open Repository Link 🦋",
-                    url="https://github.com/AdityaHalder/AdityaPlayer",
+                    url="https://t.me/Zindagi_hai_tere_nal",
                 )
             ],
             [
