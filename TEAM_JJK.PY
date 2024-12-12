@@ -1395,7 +1395,7 @@ async def update_repo_latest(client, message):
         f"{nrs.text}\n\nBot was updated successfully! Now, wait for 1 - 2 mins until the bot reboots!"
     )
     os.system("pip3 install -r requirements.txt --force-reinstall")
-    os.system(f"kill -9 {os.getpid()} && python3 -m AdityaHalder")
+    os.system(f"kill -9 {os.getpid()} && python3 -m TEAM_JJK")
     sys.exit()
     return
 
@@ -1407,7 +1407,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**⏤͟͞ADITYA PLAYER STATS ༗**"
+    caption = "**⏤͟͞TEAM_JJK PLAYER STATS ༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
